@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Alwer</string>
+    <string name="textTitulo">Bienvenido a Alwer</string>
+    <string name="textIngresar">Ingrese usuario y contraseña para disfrutar de la experiencia</string>
+    <string name="textUsuario">Escriba su nombre de usuario</string>
+    <string name="textPassword">Escriba su contraseña</string>
+    <string name="textPass">Ocho caracteres</string>
+
+    <string name="txtTitulo">Halo Combat Evolved</string>
+    <string name="txtApartado">Historia</string>
+    <string name="tvHalo">Se define como Universo de Halo a todos los acontecimientos datados dentro de todas las entregas de la franquicia de dicho juego. Dicho universo se sitúa aproximadamente 500 años en el futuro, la raza humana ha colonizado varios planetas gracias al descubrimiento del viaje interlúminico en el siglo XXIII, pero también con la humanidad en una devastadora guerra contra una alianza alienígena conocida como el Covenant, con una ideología sobre unos anillos; construidos por una antigua raza extraterrestre conocida como los Forerunner, que al ser activados comenzaría el Gran Viaje cuando en realidad, toda la vida en la galaxia seria destruida.</string>
+    <string name="tvHalo2">La trilogía de Halo:</string>
+    <string name="tvHalo3">Halo: Combat Evolved - La historia que comienza el acontecimiento de los Anillos de Halo, con el Jefe Maestro y Cortana sin refuerzos en un mundo totalmente hostil.
+Halo 2 - Continuación de los eventos del primer juego, defensa de la Tierra por parte de la Humanidad, además de una historia del lado como parte de los guerreros del Covenant. La alianza entre los Elites y los Humanos contra los Profetas y el Flood comienza aquí.
+Halo 3 - La batalla final entre el Covenant y la Humanidad. Muerte de soldados destacados, además de la Comandante Miranda Keyes. El Jefe Maestro se las arregla para detener al Flood, costándole quedar atrapado en el espacio junto con Cortana durante 4 años, 7 meses y 10 días.
+    </string>
+    <string name="tvHalo4">  La Saga del Reclamador es la nueva saga de Halo:
+Halo 4 - La continuación de la serie: después de 4 años, 7 meses y 10 días, el Jefe Maestro despierta de su sueño criogénico a bordo de la nave donde estuvo dormido aterrizando en el planeta denominado Requiem junto con Cortana, donde se tendrá que enfrentar a un antiguo mal que domina la galaxia en un nuevo conflicto.
+Halo 5: Guardians - Continuación a la Campaña de Halo 4 y Spartan Ops. El Jefe Maestro y el Equipo Azul desertan del UNSC, por este motivo al Equipo de Asalto Osiris les es asignada la misión de rastrear y remitir al los SPARTAN-II. Ninguno de los equipos pudo haber previsto la magnitud del conflicto que se aproximaría.
+Halo 6 - Tercera entrega de la Saga del Reclamador.</string>
+    <string name="tvHalo5">Serie de juegos Spin-Offs:
+Halo Wars - Primer juego de estrategia RTS, creado por Ensemble Studios.
+Halo 3: ODST - Historia secundaria de un Pelotón SCDO durante la invasión a la Tierra.
+Halo: Reach - Historia de un equipo de SPARTAN-IIIs, llamado Equipo Noble, sobre la fallida defensa de Reach.
+Titan (videojuego cancelado)
+Halo Wars 2 - Segundo juego de estrategia RTS, creado por Creative Assembly.</string>
+    <string name="dx">1</string>
+</resources>

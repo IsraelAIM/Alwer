@@ -7,4 +7,124 @@
     android:background="@drawable/fonhalo3"
     tools:context=".Cuadraticas">
 
+    <EditText
+        android:id="@+id/A"
+        android:layout_width="48dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="a"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="#AEFFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="76dp"
+        android:text="x^2"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="#AEFFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/A"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/B"
+        android:layout_width="48dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="b"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="#AEFFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/textView14"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="76dp"
+        android:text="x"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="#AEFFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/B"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/C"
+        android:layout_width="48dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="c"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="#AEFFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/textView16"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="76dp"
+        android:text="=0"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="#AEFFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/C"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/X"
+        android:layout_width="28dp"
+        android:layout_height="20dp"
+
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="48dp"
+        android:hint="X1"
+        android:textAlignment="center"
+        android:textColorHint="#AEFFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/A" />
+
+    <TextView
+        android:id="@+id/Y"
+        android:layout_width="24dp"
+        android:layout_height="19dp"
+
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="52dp"
+        android:hint="X2"
+        android:textAlignment="center"
+        android:textColorHint="#AEFFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/X"
+        app:layout_constraintTop_toBottomOf="@+id/B" />
+
+    <Button
+        android:id="@+id/btnCal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="112dp"
+        android:background="@drawable/background"
+        android:text="Calcular"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/A" />
 </androidx.constraintlayout.widget.ConstraintLayout>

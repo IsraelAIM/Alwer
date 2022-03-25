@@ -21,6 +21,7 @@ class Cuadraticas : AppCompatActivity() {
         var ch = findViewById<EditText>(R.id.C)
         var sResultado1 = findViewById<TextView>(R.id.X)
         var sResultado2 = findViewById<TextView>(R.id.Y)
+
         var calculo= findViewById<Button>(R.id.btnCal)
 
         calculo.setOnClickListener {
@@ -28,8 +29,8 @@ class Cuadraticas : AppCompatActivity() {
             var b = be.text.toString().toDouble()
             var c = ch.text.toString().toDouble()
 
-            val x2= (-b +(sqrt(b.pow(2.0) - (4*a*c)))) / 2*a
-            val x1= (-b -(sqrt(b.pow(2.0) - (4*a*c)))) / 2*a
+            val x1= (-b +(sqrt(b.pow(2.0) - (4*a*c)))) / 2*a
+            val x2= (-b -(sqrt(b.pow(2.0) - (4*a*c)))) / 2*a
 
             val d= b.pow(2.0) - (2*a*c)
 

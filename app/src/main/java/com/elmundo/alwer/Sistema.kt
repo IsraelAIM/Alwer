@@ -13,17 +13,28 @@ class Sistema : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sistema)
-        var bcal = findViewById<Button>(R.id.btnCal)
-        bcal.setOnClickListener {
-            var a1 = findViewById<EditText>(R.id.A).getText().toString().toDouble()
-            var b1 = findViewById<EditText>(R.id.C).getText().toString().toDouble()
-            var c1 = findViewById<EditText>(R.id.res1).getText().toString().toDouble()
-            var a2 = findViewById<EditText>(R.id.B).getText().toString().toDouble()
-            var b2 = findViewById<EditText>(R.id.D).getText().toString().toDouble()
-            var c2 = findViewById<EditText>(R.id.res2).getText().toString().toDouble()
+        val bcal = findViewById<Button>(R.id.btnCal)
+        val bLim = findViewById<Button>(R.id.btnLimpiar)
 
-            var txX = findViewById<TextView>(R.id.fequis)
-            var txY = findViewById<TextView>(R.id.fDiegra)
+        val al1 = findViewById<EditText>(R.id.A)
+        val be1 = findViewById<EditText>(R.id.C)
+        val ch1 = findViewById<EditText>(R.id.res1)
+
+        val al2 = findViewById<EditText>(R.id.B)
+        val be2 = findViewById<EditText>(R.id.D)
+        val ch2 = findViewById<EditText>(R.id.res2)
+
+        val txX = findViewById<TextView>(R.id.fequis)
+        val txY = findViewById<TextView>(R.id.fDiegra)
+
+
+        bcal.setOnClickListener {
+            var a1 = al1.getText().toString().toDouble()
+            var b1 = be1.getText().toString().toDouble()
+            var c1 = ch1.getText().toString().toDouble()
+            var a2 = al2.getText().toString().toDouble()
+            var b2 = be2.getText().toString().toDouble()
+            var c2 = ch2.getText().toString().toDouble()
 
             var r = (a1 * b2) - (a2 * b1)
 
@@ -44,6 +55,11 @@ class Sistema : AppCompatActivity() {
                 txY.setText(y.toString())
             }
         }
-
+        bLim.setOnClickListener {
+            al1.setText(""); be1.setText(""); ch1.setText("");al2.setText("");be2.setText("");ch2.setText(
+            ""
+        );txX.setText("");txY.setText("");
+            Toast.makeText(this, "Hecho", Toast.LENGTH_SHORT).show()
+        }
     }
 }
